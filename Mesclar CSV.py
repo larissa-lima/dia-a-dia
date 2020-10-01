@@ -11,4 +11,4 @@ for file in source_files:
     dataframes.append(df)
 
 #caminho para salvar + nome do arquivo
-all = pd.concat(dataframes).to_csv("C:/Users/A353375/Desktop/Merge Files"+"/"+"merged.csv")
+all = pd.concat(dataframes).to_csv("C:/Desktop/Merge Files"+"/"+"merged.csv")
